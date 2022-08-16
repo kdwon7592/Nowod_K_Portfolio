@@ -34,6 +34,24 @@
   border: 2px solid var(--clr-fg);
 }
 
+@media (min-width: 968px) {
+  .about_left {
+    width: 190px;
+  }
+  .about_image {
+    width: 180px;
+  }
+}
+
+@media (min-width: 1168px) {
+  .about_left {
+    width: 240px;
+  }
+  .about_image {
+    width: 230px;
+  }
+}
+
 .about_small_intro {
   font-size: 0.5em;
 }

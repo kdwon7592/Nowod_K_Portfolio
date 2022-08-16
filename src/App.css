@@ -25,14 +25,13 @@
 }
 
 main {
-  max-width: 1100px;
   width: 95%;
   margin: 0 auto;
 }
 
 .div_section {
   margin-top: 5em;
-  padding-top: 5rem !important;
+  padding-top: -5rem !important;
   padding-bottom: 5rem !important; 
   border-bottom: 1px solid var(--clr-fg);
   display: flex;

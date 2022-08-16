@@ -29,51 +29,54 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Todo App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Context API, Styled Component 활용한 간단한 Todo App 입니다.',
+    stack: ['Styled Component', 'Javascript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    link: 'TodoApp'
   },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+  // {
+  //   name: 'Project 2',
+  //   description:
+  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+  //   stack: ['SASS', 'TypeScript', 'React'],
+  //   sourceCode: 'https://github.com',
+  //   livePreview: 'https://github.com',
+  // },
+  // {
+  //   name: 'Project 3',
+  //   description:
+  //     'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+  //   stack: ['SASS', 'TypeScript', 'React'],
+  //   sourceCode: 'https://github.com',
+  //   livePreview: 'https://github.com',
+  // },
 ]
 
-const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
-]
+const skills = {
+  good: {
+    skill: ['Javascript', 'Java', 'Spring', 'Oracle', 'MS-SQL', 'SVN', 'HTML/CSS', 'jquery'],
+    kr: '실무에서 자주 사용하고, 익숙하게 쓰고 있어요.'
+  },
+
+  can: {
+    skill: ['React', 'Android', 'My-SQL', 'Git', 'AWS', 'MS-AZURE'],
+    kr: '실무에서 써본적도 있고, 어느정도 할 줄 알아요.'
+  },
+
+  readable: {
+    skill: ['Python', 'SWIFT', 'C#', 'PHP'],
+    kr: "코드를 읽고 이해할 수 있어요."
+  },
+
+  // tools: ['Jenkins', 'Confluence', 'Trello', 'Intermax']
+}
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'kdwon7592@naver.com',
 }
 
 export { header, about, projects, skills, contact }
