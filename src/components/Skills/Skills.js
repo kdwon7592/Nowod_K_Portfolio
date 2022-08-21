@@ -9,7 +9,7 @@ const Skills = () => {
     <section className='div_section skills sector' id='skills'>
       <h2 className='section__title'>Skills</h2>
       {Object.keys(skills).map(level => (
-        <>
+        <div className='skills_div' key={uniqid()}>
           <h3 className='skills_header'>{skills[level].kr}</h3>
           <ul className='skills__list'>
             {skills[level].skill.map((skill) => (
@@ -18,7 +18,7 @@ const Skills = () => {
               </li>
             ))}
           </ul>
-        </>
+        </div>
       ))}
     </section>
   )

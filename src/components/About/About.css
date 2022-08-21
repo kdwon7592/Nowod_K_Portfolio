@@ -15,7 +15,7 @@
 .about_left {
   display: flex;
   flex-direction: column;
-  /* border-right: 1px solid var(--clr-fg); */
+  border-right: 1px solid var(--clr-fg);
   align-items: center;
   justify-content: center;
   width: 150px;

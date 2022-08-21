@@ -39,7 +39,7 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh; 
-  scroll-margin-top: 8em;
+  /* scroll-margin-top: 8em; */
 }
 
 @media (min-width: 768px) {

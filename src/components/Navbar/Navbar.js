@@ -14,8 +14,8 @@ const Navbar = () => {
   const [{ languageName, toggleLanguage }] = useContext(LanguageContext);
   const [showNavList, setShowNavList] = useState(false);
 
-  const toggleNavList = (e) => {
-    console.log(e.target.id);
+  const toggleNavList = () => {
+    // console.log(e.target.id);
     setShowNavList(!showNavList);
   };
 
@@ -47,7 +47,7 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        {skills.length ? (
+        {skills !== null ? (
           <li className='nav__list-item'>
             <a
               href='#skills'

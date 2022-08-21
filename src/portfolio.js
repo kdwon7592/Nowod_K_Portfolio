@@ -35,7 +35,8 @@ const projects = [
     stack: ['Styled Component', 'Javascript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    link: 'TodoApp'
+    link: 'TodoApp',
+    image_url: '/resoucres/image/todoList_image.png'
   },
   // {
   //   name: 'Project 2',
@@ -71,7 +72,10 @@ const skills = {
     kr: "코드를 읽고 이해할 수 있어요."
   },
 
-  // tools: ['Jenkins', 'Confluence', 'Trello', 'Intermax']
+  tools: {
+    skill: ['Jenkins', 'Confluence', 'Trello', 'Intermax'],
+    kr: "사용해봤어요."
+  }
 }
 
 const contact = {
